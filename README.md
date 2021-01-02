@@ -2,5 +2,5 @@
 
 ### Url
 ```bash
-wget -P src/components https://raw.githubusercontent.com/ivanstan/woodpecker/main/react/Url.tsx
+wget -O src/components/Url.tsx https://raw.githubusercontent.com/ivanstan/woodpecker/main/react/Url.tsx
 ```
