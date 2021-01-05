@@ -5,8 +5,8 @@
 curl -o maker/Generator.php https://raw.githubusercontent.com/ivanstan/woodpecker/main/symfony/maker/Generator.php
 
 # custom crud controller
-curl -o maker/Generator.php https://raw.githubusercontent.com/ivanstan/woodpecker/main/symfony/maker/Generator.php
-curl -o maker/Resources/skeleton/crud/controller/Controller.tpl.php https://raw.githubusercontent.com/ivanstan/woodpecker/main/symfony/maker/Resources/skeleton/crud/controller/Controller.tpl.php
+curl --create-dirs -o maker/Generator.php https://raw.githubusercontent.com/ivanstan/woodpecker/main/symfony/maker/Generator.php
+curl --create-dirs -o maker/Resources/skeleton/crud/controller/Controller.tpl.php https://raw.githubusercontent.com/ivanstan/woodpecker/main/symfony/maker/Resources/skeleton/crud/controller/Controller.tpl.php
 ```
 Add to `composer.json`
 ```
@@ -19,5 +19,5 @@ Add to `composer.json`
 
 ### Twig pager
 ```bash
-curl -o templates/components/pager.html.twig https://raw.githubusercontent.com/ivanstan/woodpecker/main/symfony/templates/components/pager.html.twig
+curl --create-dirs -o templates/components/pager.html.twig https://raw.githubusercontent.com/ivanstan/woodpecker/main/symfony/templates/components/pager.html.twig
 ```
