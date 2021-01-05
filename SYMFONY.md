@@ -16,3 +16,8 @@ Add to `composer.json`
     }
 },
 ```
+
+### Twig pager
+```bash
+curl -o templates/components/pager.html.twig https://raw.githubusercontent.com/ivanstan/woodpecker/main/symfony/templates/components/pager.html.twig
+```
