@@ -19,6 +19,6 @@ Add to `composer.json`
 
 ### Twig pager
 ```bash
-composer require pagerfanta/pagerfanta
+composer require babdev/pagerfanta-bundle
 curl --create-dirs -o templates/components/pager.html.twig https://raw.githubusercontent.com/ivanstan/woodpecker/main/symfony/templates/components/pager.html.twig
 ```
